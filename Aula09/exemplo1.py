@@ -17,4 +17,6 @@ try:
 except IndexError as e:
     print (f" {e} Precisa digitar algo")
 else: # Neste caso, o else só vai ser rodado se NÃO DER ERRO
-    print ("Acertou!")    
+    print ("Acertou!")
+finally:
+    print ("Sempre executado")        
